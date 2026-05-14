@@ -1,39 +1,81 @@
-## **Employee Performance Analytics**
+# Business Problem Statement
 
-### **1. Task Overview**
+## Business Context
 
-In this challenge, you will play the role of a Human Resources Data Analyst. You will be working with a massive dataset containing detailed employee records from 2022 to 2024. The goal is to analyze workforce patterns and deliver actionable insights to improve satisfaction, optimize performance, and enhance organizational effectiveness.
+Modern retail and operational businesses face increasing workforce challenges, including employee turnover, inconsistent performance, compensation inefficiencies, and declining employee satisfaction. These workforce issues directly impact operational efficiency, productivity, and long-term business performance.
 
-### **2. What does the dataset include?**
-
-The dataset simulates a professional HR management system, including:
-
-- **Demographics:** Age, education level, job role, job level
-- **Performance:** Evaluation scores, training hours, overtime, absenteeism rate, engagement index
-- **Financial:** Salary, bonuses, benefits cost
-- **Management:** Relationship with managers, promotions, career path
-- **Operations:** Store location, department, type of job, business outcomes
-- **KPIs:** Productivity index, customer satisfaction scores by role
+To support better workforce planning and business decision-making, organizations require a centralized analytics solution capable of monitoring employee performance, retention risk, workforce effectiveness, and operational impact.
 
 ---
 
-### **3. Key Questions to Answer**
+# Business Problems
 
-To successfully complete the analysis, answer the following 10 questions:
+The company currently lacks a structured analytical system to answer critical workforce and operational questions such as:
 
-1. How many employees have resigned? Which department has the highest turnover rate?
-2. What is the average salary by job level? (Create a chart comparing salaries between departments.)
-3. Which months have the highest employee performance evaluation scores?
-4. List the top 10 managers based on their group’s average performance score.
-5. Do employees who participate in more training achieve higher performance? (Demonstrate the relationship.)
-6. Which are the top 5 stores with the highest revenue? What distinguishes them from low-performing stores?
-7. What is the average employee satisfaction score per department? Which department is the happiest?
-8. Compare the productivity index across job roles. Which role is the most productive?
-9. Which employees are most likely to be promoted based on their performance and satisfaction scores?
-10. What is the relationship between age and performance? Do younger or older employees perform better?
+- Which departments are experiencing the highest turnover rates?
+- Are compensation levels aligned with employee performance?
+- Which employees or workforce segments are at high retention risk?
+- Does employee satisfaction influence performance and stability?
+- Which departments generate the highest workforce productivity?
+- How does workforce structure impact business outcomes?
 
-### **4. Evaluation Criteria**
+Without clear visibility into these issues, management faces difficulty in:
+- Identifying retention risks early
+- Optimizing workforce allocation
+- Evaluating compensation effectiveness
+- Monitoring workforce productivity
+- Supporting strategic HR decisions
 
-1. **Data Understanding:** Does the report help users easily understand the data?
-2. **Usability:** Ability to interact, filter, and quickly and intuitively drill down into the data
-3. **Design:** Aesthetics and appropriateness for business purpose
+---
+
+# Analytical Objectives
+
+This project aims to build an end-to-end workforce analytics solution using SQL and Power BI to:
+
+- Analyze employee turnover and workforce stability
+- Evaluate employee performance and compensation effectiveness
+- Monitor employee satisfaction and retention risk
+- Measure workforce productivity across departments and job roles
+- Connect workforce metrics with business performance indicators
+- Provide executive-level dashboards for decision support
+
+---
+
+# Key Business Questions
+
+The analysis focuses on answering the following workforce and operational questions:
+
+1. How many employees have resigned, and which departments show the highest turnover rates?
+
+2. What is the average salary across job levels and departments?
+
+3. Which periods show peak employee performance?
+
+4. Which managers lead the highest-performing teams?
+
+5. Does employee training improve performance outcomes?
+
+6. Which stores generate the highest sales performance?
+
+7. Which departments report the highest employee satisfaction?
+
+8. Which job roles create the highest productivity value?
+
+9. Which employees are strong candidates for promotion based on performance and satisfaction?
+
+10. What is the relationship between employee age and performance?
+
+---
+
+# Expected Business Impact
+
+The final analytics solution is designed to support:
+
+- Workforce planning and retention strategy
+- Performance and compensation evaluation
+- Employee risk identification
+- Productivity optimization
+- Organizational stability monitoring
+- Executive-level business decision-making
+
+The project enables management teams to transform workforce data into actionable insights that improve both employee effectiveness and operational performance.
